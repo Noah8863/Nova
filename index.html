@@ -1,18 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Nova International</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/Development/styles.css">
-    </head>
-    <body>
-        <nav class="navbar">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nova International</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/Development/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tresoa Wholesale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+          <form onsubmit="event.preventDefault();" role="search">
+            <label for="search">Search for stuff</label>
+            <input
+              id="search"
+              type="search"
+              placeholder="Search..."
+              autofocus
+              required
+            />
+            <button type="submit">Go</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="main-container container">
+      <div class="row">
+        <div class="top-row col">
+          <img src="../Assets/Images/landingPagePic.png" />
+        </div>
+        <div id="right-side-wording" class="col">
+          <h2>What We Do...</h2>
+          <p>
+            Nova National one of the few centrally located distributer of
+            Trespa's Scientific Products. We Pride outselves on the quality of
+            the Trespa ordering process from start to finish. From picking
+            colors, to delivery, we got you covered on quality and an easy
+            process.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+      <div class="bottom-row col">
+          <h2 style="text-align:center;">The Best In Quality & Service</h2>
+      </div>
+      <div class="col">
+          <p id="rightBottom-side-wording">As a Trespa distributer, we provie a wide range of products, Trespa TopLab countertops. We offer a range of services to help our customers make the best use of Trespa products including design advice, technical support, and installation guidance. With our expertise and commitment to excellence, we strive to provide our customers with the highest qualuty of service and products.</p>
+      </div>
+    </div>
+    </div>
+    
 
-        </nav>
-        
-        <script src="/Development/index.js" async defer></script>
-    </body>
+    <script src="/Development/index.js" async defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
