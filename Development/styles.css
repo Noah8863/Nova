@@ -22,6 +22,9 @@
 .navbar {
   background-color: black;
 }
+.mobile-nav {
+  display: none;
+}
 form {
   position: relative;
   width: 30rem;
@@ -263,4 +266,14 @@ label {
 .wrapper .cbs:hover .tooltip::before {
   background: #e1b301;
   color: #ffffff;
+}
+
+
+@media screen and (min-width: 990px) {
+  .mobile-nav {
+    display:flex;
+  }
+  .navbar-desktop {
+    display: none;
+  }
 }
