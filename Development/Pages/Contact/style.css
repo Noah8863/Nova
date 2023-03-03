@@ -105,13 +105,14 @@ label {
   position: relative;
   background-color: var(--backdrop);
   width: 100vw;
+  height: contain;
   display: grid;
 }
 .top-row {
   position: relative;
   display: grid;
   grid-template-columns: 50% auto;
-  grid-template-rows: 500px;
+  grid-template-rows: auto;
 }
 #landingPageImg {
   position: relative;
@@ -141,20 +142,37 @@ label {
 #reach-us-container {
     position: relative;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
     height: auto;
     width: 100%;
     background-color: var(--container-background);
     text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 50px;
+}
+#reach-us-wording {
+    position: relative;
+    width: 80%;
+    height: 300px;
+}
+#reach-us-wording h2, p, b{
+    position: relative;
+    text-align: center;
+    top: 40px;
 }
 #reach-us-image {
     position: relative;
-    margin: auto;
+    display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+    float: right;
     height: auto;
-    width: 100%;
+    width:100%;
     background-color: var(--container-background);
 }
 .footer-content {
