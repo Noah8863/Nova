@@ -78,16 +78,17 @@
               Search
             </button>
           </form> -->
-          <form onsubmit="event.preventDefault();" role="search">
-            <label for="search">Search for stuff</label>
+          <form class="form-navbar" onsubmit="event.preventDefault();" role="search">
+            <label for="search" class="navbar-label">Search for stuff</label>
             <input
+                class="navbar-input"
               id="search"
               type="search"
               placeholder="Search..."
               autofocus
               required
             />
-            <button type="submit">Go</button>
+            <button class="navbar-input-btn" type="submit">Go</button>
           </form>
         </div>
       </div>
@@ -99,66 +100,10 @@
           src="../../../Assets/Images/lab4.png"
         />
         <div class="right-side-contact">
-          <form id="contact-form">
-            <div class="form-group">
-              <h4>Name</h4>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="form-group">
-              <h4>Email</h4>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="form-group">
-              <h4>Phone</h4>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-            <form>
-              <input
-                type="checkbox"
-                id="vehicle1"
-                name="vehicle1"
-                value="Bike"
-              />
-              <p for="vehicle1">I have a bike</p>
-              <input
-                type="checkbox"
-                id="vehicle2"
-                name="vehicle2"
-                value="Car"
-              />
-              <label for="vehicle2"> I have a car</label>
-              <input
-                type="checkbox"
-                id="vehicle3"
-                name="vehicle3"
-                value="Boat"
-              />
-              <label for="vehicle3"> I have a boat</label>
-            </form>
-
-            <div class="form-group">
-              <h4>Message</h4>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
+          <form>
+            <h2>Name
+                <input type="text">
+            </h2>
           </form>
         </div>
       </div>
@@ -167,11 +112,9 @@
           <div id="reach-us-wording">
             <h2 style="font-size: 40px">How to reach us...</h2>
             <b style="font-size: 20px;">Centrally located Trespa distrubutor</b> <br />
-            <p class="fa-solid fa-envelope" style="font-size: 15px">Info@novanationalInc.com</p> <br />
-            <p class="fa-solid fa-phone" style="font-size: 15px">(303) 922-6682</p> <br />
-            <p class="fa-solid fa-location-dot" style="font-size: 15px">1630 W Evans Ave, Unit C
-
-                Englewood, CO 80110</p>
+            <a href="mailto:Info@novanationalInc.com"><p class="fa-solid fa-envelope" style="font-size: 15px">Info@novanationalInc.com</p> </a><br />
+            <a href="tel:303-922-6682"><p class="fa-solid fa-phone" style="font-size: 15px">(303) 922-6682</p></a> <br />
+            <a href="https://www.google.com/maps/place/1630+W+Evans+Ave+unit+c,+Englewood,+CO+80110/@39.6780092,-105.0077635,17z/data=!3m1!4b1!4m6!3m5!1s0x876c7fbe371226d3:0xb3bfa3af45fc6f8f!8m2!3d39.6780092!4d-105.0077635!16s%2Fg%2F11qzdc6wz9" target="_blank"><p class="fa-solid fa-location-dot" style="font-size: 15px">1630 W Evans Ave, Unit C Englewood, CO 80110</p></a>
           </div>
         </div>
         <div id="reach-us-image">

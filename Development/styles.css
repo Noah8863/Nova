@@ -29,23 +29,31 @@
 .mobile-nav {
   display: none;
 }
-form {
+.form-navbar {
   position: relative;
   width: 30rem;
   background: var(--color-brand);
   border-radius: var(--rad);
 }
+/* Change to just form for navbar styles ^^ */
 
-input,
-button {
+.navbar-input
+{
   height: var(--height);
   font-family: var(--font-fam);
   border: 0;
   color: var(--color-dark);
   font-size: 1.8rem;
 }
+.navbar-input-btn {
+    height: var(--height);
+  font-family: var(--font-fam);
+  border: 0;
+  color: var(--color-dark);
+  font-size: 1.8rem;
+}
 
-input[type="search"] {
+.navbar-input[type="search"] {
   outline: 0;
   width: 100%;
   background: var(--color-light);
@@ -60,7 +68,7 @@ input[type="search"] {
   position: relative;
 }
 
-button {
+.navbar-input-btn {
   display: none;
   position: absolute;
   top: 0;
@@ -71,31 +79,31 @@ button {
   border-radius: 0 var(--rad) var(--rad) 0;
 }
 
-input:not(:-moz-placeholder-shown) {
+.navbar-input:not(:-moz-placeholder-shown) {
   border-radius: var(--rad) 0 0 var(--rad);
   width: calc(100% - var(--btn-width));
 }
 
-input:not(:-ms-input-placeholder) {
+.navbar-input:not(:-ms-input-placeholder) {
   border-radius: var(--rad) 0 0 var(--rad);
   width: calc(100% - var(--btn-width));
 }
 
-input:not(:placeholder-shown) {
+.navbar-input:not(:placeholder-shown) {
   border-radius: var(--rad) 0 0 var(--rad);
   width: calc(100% - var(--btn-width));
 }
-input:not(:-moz-placeholder-shown) + button {
+.navbar-input:not(:-moz-placeholder-shown) + button {
   display: block;
 }
-input:not(:-ms-input-placeholder) + button {
+.navbar-input:not(:-ms-input-placeholder) + button {
   display: block;
 }
-input:not(:placeholder-shown) + button {
+.navbar-input:not(:placeholder-shown) + button {
   display: block;
 }
 
-label {
+.navbar-label {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0;

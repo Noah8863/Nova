@@ -78,16 +78,17 @@
               Search
             </button>
           </form> -->
-          <form onsubmit="event.preventDefault();" role="search">
-            <label for="search">Search for stuff</label>
+          <form class="form-navbar" onsubmit="event.preventDefault();" role="search">
+            <label for="search" class="navbar-label">Search for stuff</label>
             <input
+                class="navbar-input"
               id="search"
               type="search"
               placeholder="Search..."
               autofocus
               required
             />
-            <button type="submit">Go</button>
+            <button class="navbar-input-btn" type="submit">Go</button>
           </form>
         </div>
       </div>
