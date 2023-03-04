@@ -13,15 +13,19 @@
 }
 .logo {
   position: relative;
-  width: 20%;
-  left: 300px;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  
 }
 .navbar a {
-  background-color: black;
   color: white;
 }
 .navbar {
-  background-color: black;
+  background-color: #545454;
+}
+.navbar-brand {
+    width: 140px;
 }
 .mobile-nav {
   display: none;
@@ -125,7 +129,7 @@ label {
 }
 .right-side-contact {
   position: relative;
-  background-color: var(--container-background);
+  background-color: #545454;
   margin-top: 10px;
   margin-left: 5px;
 }
