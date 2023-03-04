@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nova International</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-desktop">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="../../../Assets/Images/logo.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Products/products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Resources/resources.html"
+                >Resources</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Trespa/trespa.html"
+                >Trespa Wholesale</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../Contact/contact.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+          <form
+            class="form-navbar"
+            onsubmit="event.preventDefault();"
+            role="search"
+          >
+            <label for="search" class="navbar-label">Search for stuff</label>
+            <input
+              class="navbar-input"
+              id="search"
+              type="search"
+              placeholder="Search..."
+              autofocus
+              required
+            />
+            <button class="navbar-input-btn" type="submit">Go</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section id="contact">
+      <div class="footer-content">
+        <h2>Office Hours</h2>
+        <p>8:00am - 3:00pm</p>
+      </div>
+      <div class="footer-content">
+        <h2>Address</h2>
+        <p>1630 W Evans Ave, Unit C</p>
+        <p>Englewood, CO 80110</p>
+        <p>USA</p>
+      </div>
+      <div id="contact-info" class="footer-content">
+        <ul class="wrapper">
+          <a
+            href="https://www.facebook.com/noah.stack.16/"
+            target="_blank"
+            style="color: white"
+          >
+            <li class="icon email">
+              <span class="tooltip">Email</span>
+              <span><i class="fa-sharp fa-solid fa-envelope"></i></span>
+            </li>
+          </a>
+
+          <a
+            href="https://www.instagram.com/noah8863/"
+            target="_blank"
+            style="color: white"
+          >
+            <li class="icon instagram">
+              <span class="tooltip">Instagram</span>
+              <span><i class="fab fa-instagram"></i></span>
+            </li>
+          </a>
+
+          <a
+            href="https://twitter.com/stacknoah99"
+            target="_blank"
+            style="color: white"
+          >
+            <li class="icon facebook">
+              <span class="tooltip">Facebook</span>
+              <span><i class="fa-brands fa-facebook"></i></span>
+            </li>
+          </a>
+
+          <a
+            href="https://github.com/Noah8863"
+            target="_blank"
+            style="color: white"
+          >
+            <li class="icon cobldg">
+              <span class="tooltip">CoBldg</span>
+              <span><i class="fa-solid fa-house"></i></span>
+            </li>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/noah-hoffman-9975a7121/"
+            target="_blank"
+            style="color: white"
+          >
+            <li class="icon cbs">
+              <span class="tooltip">CBS Lumber</span>
+              <span><i class="fa-solid fa-truck-moving"></i></span>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/78de80bbe9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
