@@ -207,3 +207,56 @@
   background: #e1b301;
   color: #ffffff;
 }
+.contact-info-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+#reach-us-container {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  width: 100%;
+  background-color: var(--container-background);
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 50px;
+}
+#reach-us-container a {
+  text-decoration: none;
+  color: black;
+}
+#reach-us-wording {
+  position: relative;
+  width: 80%;
+  height: 300px;
+}
+#reach-us-wording h2,
+p,
+b {
+  position: relative;
+  text-align: center;
+
+}
+#reach-us-image {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+  height: auto;
+  width: 100%;
+  background-color: var(--container-background);
+} 
+#reach-us-image img {
+    object-fit: cover;
+    width: auto;
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}

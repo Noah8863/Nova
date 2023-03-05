@@ -67,23 +67,12 @@
               >
             </li>
           </ul>
-          <!-- <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form> -->
           <form
             class="form-navbar"
             onsubmit="event.preventDefault();"
             role="search"
           >
-            <label for="search" class="navbar-label">Search for stuff</label>
+            <label for="search" class="navbar-label"></label>
             <input
               class="navbar-input"
               id="search"
@@ -96,80 +85,33 @@
           </form>
         </div>
       </div>
+      
     </nav>
-    <div class="main-container">
-      <div class="top-row">
-        <img id="contactPageImg" src="../../../Assets/Images/labTest4.png" />
-        <div class="right-side-contact">
-          <div class="form-container">
-            <form>
-              <label for="name">Name: </label>
-              <input type="text" id="fname" name="fname" /><br /><br />
-              <label for="email">Email:</label>
-              <input type="text" id="lname" name="lname" /><br /><br />
-              <label for="phone">Phone:</label>
-              <input type="number" id="lname" name="lname" /><br /><br />
-              
-              <div className="checkboxform field">
-                <h6>Click on line for selection**</h6>
-                <div id="checklist">
-    
-                  <input id="lumber" type="checkbox" value="1" />
-                  <label htmlFor="01 lumber">ORDER</label>
-    
-                  <input id="osb" type="checkbox" value="2" />
-                  <label htmlFor="02 osb">INDUSTRY</label>
-    
-                  <input id="plywood" type="checkbox" value="3" />
-                  <label htmlFor="03 plywood">STOCK/COLOR</label>
-                </div>
-              </div>
-              <!-- <textarea
-                rows="4"
-                cols="50"
-                name="comment"
-                form="message"
-                placeholder="Message here..."
-              ></textarea> -->
-            </form>
-              <button id="btn">
-                Submit
-              </button>
-          </div>
-        </div>
+    <div class="contact-box">
+      <div id="contact-picture">
+        <img src="../../../Assets/Images/labTest4.png">
       </div>
-      <div class="contact-info-container">
-        <div id="reach-us-container">
-          <div id="reach-us-wording">
-            <h2 style="font-size: 40px">How to reach us...</h2>
-            <b style="font-size: 20px">Centrally located Trespa distrubutor</b>
-            <br />
-            <a href="mailto:Info@novanationalInc.com"
-              ><p class="fa-solid fa-envelope" style="font-size: 15px">
-                Info@novanationalInc.com
-              </p> </a
-            ><br />
-            <a href="tel:303-922-6682"
-              ><p class="fa-solid fa-phone" style="font-size: 15px">
-                (303) 922-6682
-              </p></a
-            >
-            <br />
-            <a
-              href="https://www.google.com/maps/place/1630+W+Evans+Ave+unit+c,+Englewood,+CO+80110/@39.6780092,-105.0077635,17z/data=!3m1!4b1!4m6!3m5!1s0x876c7fbe371226d3:0xb3bfa3af45fc6f8f!8m2!3d39.6780092!4d-105.0077635!16s%2Fg%2F11qzdc6wz9"
-              target="_blank"
-              ><p class="fa-solid fa-location-dot" style="font-size: 15px">
-                1630 W Evans Ave, Unit C Englewood, CO 80110
-              </p></a
-            >
+      <div id="contact-form">
+        <form id="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
-        </div>
-        <div id="reach-us-image">
-          <img src="../../../Assets/Images/Lab2.jpg" />
-        </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Phone Number</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="So we can reach you!">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
-    <section id="contact">
+    
+    <footer id="contact">
       <div class="footer-content">
         <h2>Office Hours</h2>
         <p>8:00am - 3:00pm</p>
@@ -238,16 +180,8 @@
           </a>
         </ul>
       </div>
-    </section>
-    <script type="text/javascript">
-      const btn = document.querySelector("#btn");
-      const btnText = document.querySelector("#btnText");
-
-      btn.onclick = () => {
-        btnText.innerHTML = "Thanks";
-        btn.classList.add("active");
-      };
-    </script>
+    </footer>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
