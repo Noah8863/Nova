@@ -146,7 +146,7 @@
 }
 
 .form-btn {
-  --c: #229091; /* the color*/
+  --c: #dffc00; /* the color*/
   box-shadow: 0 0 0 0.1em inset var(--c);
   --_g: linear-gradient(var(--c) 0 0) no-repeat;
   background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
@@ -158,6 +158,8 @@
   transition: background-size 0.4s, background-position 0s 0.4s;
   position: relative;
   left: 40%;
+  padding: 10px;
+  width: 200px;
 }
 .form-btn:hover {
   --_p: 100%;
@@ -206,7 +208,7 @@
   max-width: 100%;
   display: flex;
   margin: auto;
-  margin-top:10px;
+  margin-top: 10px;
 }
 #reach-us-image {
   background-color: grey;
@@ -316,12 +318,12 @@
     grid-template-columns: auto;
   }
   .footer-content {
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 1000px) {
   .form-group {
-  padding: 10px;
+    padding: 10px;
   }
 }
