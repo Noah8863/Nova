@@ -126,7 +126,7 @@
   display: flex;
   margin: auto;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 #contact-form {
   margin-top: 10px;
@@ -141,7 +141,9 @@
   text-align: left;
   padding: 50px;
 }
-
+#small-text {
+  color: white;
+}
 
 .form-btn {
   --c: #229091; /* the color*/
@@ -174,6 +176,40 @@
   display: grid;
   grid-template-columns: auto auto auto;
   color: white;
+}
+.reach-us-container {
+  background-color: var(--backdrop);
+}
+.reach-us-row {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: grey;
+}
+#left-side-reach-us {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 40px;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+  text-align: left;
+}
+.icon-wording {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+}
+
+#reach-us-image img {
+  width: auto;
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top:10px;
+}
+#reach-us-image {
+  background-color: grey;
 }
 .wrapper {
   display: inline-flex;
@@ -267,9 +303,22 @@
   .contact-box {
     grid-template-columns: auto;
   }
+  .reach-us-row {
+    grid-template-columns: auto;
+  }
   .form-group {
     padding: 20px;
-    }
+  }
+  #contact-form {
+    margin-left: 0px;
+  }
+  #contact {
+    grid-template-columns: auto;
+  }
+  .footer-content {
+    margin-top:10px;
+    margin-bottom:10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .form-group {
