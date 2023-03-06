@@ -116,24 +116,56 @@
 }
 .contact-box {
   position: relative;
-  /* background-color: var(--backdrop); */
+  background-color: var(--backdrop);
   display: grid;
   grid-template-columns: 30% auto;
 }
-#contact-picture {
-  background-color: pink;
-}
-#contact-picture img{
+#contact-picture img {
   width: auto;
   max-width: 100%;
-
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #contact-form {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#form {
   position: relative;
-  width: auto;
-  background-color: blue;
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 50px;
 }
 
+
+.form-btn {
+  --c: #229091; /* the color*/
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+  position: relative;
+  left: 40%;
+}
+.form-btn:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+.form-btn:active {
+  box-shadow: 0 0 9e9Q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
 #contact {
   border-bottom: 1px solid rgb(0, 0, 0);
   text-align: center;
@@ -231,8 +263,16 @@
   color: #ffffff;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 650px) {
   .contact-box {
     grid-template-columns: auto;
+  }
+  .form-group {
+    padding: 20px;
+    }
+}
+@media screen and (max-width: 1000px) {
+  .form-group {
+  padding: 10px;
   }
 }
