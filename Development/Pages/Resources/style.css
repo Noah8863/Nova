@@ -158,6 +158,20 @@
 #reach-us-image {
   background-color: #d9d9d9;
 }
+.icon-wording {
+  text-decoration: underline;
+}
+.product-info-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.info-right-side img {
+  width: auto;
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+}
 .wrapper {
   display: inline-flex;
   list-style: none;
