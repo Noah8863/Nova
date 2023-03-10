@@ -247,57 +247,29 @@
 }
 .contact-info-container {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: auto auto;
 }
 #reach-us-container {
-  position: relative;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: auto;
-  width: 100%;
-  background-color: var(--container-background);
-  text-align: center;
-  letter-spacing: 1px;
-  word-spacing: 5px;
-  line-height: 50px;
+  background-color: pink;
+  padding: 40px;
+  line-height: 4.5;
 }
-#reach-us-container a {
-  text-decoration: none;
+#reach-us-container a{
   color: black;
 }
-#reach-us-wording {
+.icon-wording {
   position: relative;
-  width: 80%;
-  height: 300px;
-}
-#reach-us-wording h2,
-p,
-b {
-  position: relative;
-  text-align: center;
-
+  display: inline-block;
+  font-size: 18px;
+  color: black;
 }
 #reach-us-image {
   position: relative;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  float: right;
-  height: auto;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   background-color: var(--container-background);
 } 
-#reach-us-image img {
-    object-fit: cover;
-    width: auto;
-    display: flex;
-    float: right;
-    margin-right: 20px;
-}
+
 @media screen and (max-width: 650px) {
   .trespa-inner-container {
     grid-template-columns: auto;
