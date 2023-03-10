@@ -207,3 +207,26 @@
   background: #e1b301;
   color: #ffffff;
 }
+@media screen and (max-width: 650px) {
+  .contact-info-container, .contact-box {
+    grid-template-columns: auto;
+  }
+  #contact-form {
+    margin-left: 0px;
+  }
+  #contact {
+    grid-template-columns: auto;
+  }
+  .footer-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .wrapper {
+    position: relative;
+    right: 20px;
+  }
+  .wrapper .icon {
+    width:30px;
+    height:30px;
+  }
+}

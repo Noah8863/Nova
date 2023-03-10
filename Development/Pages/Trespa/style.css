@@ -250,9 +250,9 @@
   grid-template-columns: auto auto;
 }
 #reach-us-container {
-  background-color: pink;
+  background-color: var(--container-background);
   padding: 40px;
-  line-height: 4.5;
+  line-height: 4;
 }
 #reach-us-container a{
   color: black;
@@ -271,7 +271,7 @@
 } 
 
 @media screen and (max-width: 650px) {
-  .trespa-inner-container {
+  .trespa-inner-container, .contact-info-container, .contact-box {
     grid-template-columns: auto;
   }
   #trespa-left-wording {
@@ -283,5 +283,32 @@
     border-right: 0px;
     border-bottom: solid 5px;
     border-color: #dffc00;
+  }
+  #trespa-right-wording {
+    position: relative;
+    padding: 10px;
+    border-top: solid 5px;
+    border-left: 0px;
+    border-color: #dffc00;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  #contact-form {
+    margin-left: 0px;
+  }
+  #contact {
+    grid-template-columns: auto;
+  }
+  .footer-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .wrapper {
+    position: relative;
+    right: 20px;
+  }
+  .wrapper .icon {
+    width:30px;
+    height:30px;
   }
 }
