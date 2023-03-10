@@ -111,6 +111,44 @@
   width: 1px;
   overflow: hidden;
 }
+.trespa-outer-container {
+  background-color: var(--container-background)
+}
+#top-trespa-row {
+  border-top: 5px solid;
+  border-color: var(--backdrop)
+}
+.trespa-inner-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#trespa-left-wording {
+  position: relative;
+  padding: 80px 10px 0 10px;
+  height: 100%;
+  text-align: center;
+  border-right: solid 5px;
+  border-color: #dffc00;
+  margin-right: 20px;
+}
+#trespa-pic {
+  width: auto;
+  max-width: 100%;
+}
+#trespa-right-wording {
+  position: relative;
+  padding: 40px;
+  border-left: solid 5px;
+  border-color: #dffc00;
+  margin-left: 20px;
+}
+#application-btn {
+  background-color: rgb(5, 88, 5);
+  color: white;
+  padding: 10px;
+  position: relative;
+}
 #contact {
   border-bottom: 1px solid rgb(0, 0, 0);
   text-align: center;
@@ -259,4 +297,19 @@ b {
     display: flex;
     float: right;
     margin-right: 20px;
+}
+@media screen and (max-width: 650px) {
+  .trespa-inner-container {
+    grid-template-columns: auto;
+  }
+  #trespa-left-wording {
+    position: relative;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-right: 0px;
+    border-bottom: solid 5px;
+    border-color: #dffc00;
+  }
 }
