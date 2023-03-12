@@ -120,6 +120,30 @@
   grid-template-columns: auto auto auto;
   color: white;
 }
+.contact-info-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#reach-us-container {
+  background-color: var(--container-background);
+  padding: 40px;
+  line-height: 4;
+}
+#reach-us-container a {
+  color: black;
+}
+.icon-wording {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+}
+#reach-us-image {
+  position: relative;
+  width: auto;
+  max-width: 100%;
+  background-color: var(--container-background);
+}
 .wrapper {
   display: inline-flex;
   list-style: none;

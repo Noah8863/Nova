@@ -207,6 +207,39 @@
   background: #e1b301;
   color: #ffffff;
 }
+.contact-info-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#reach-us-container {
+  background-color: var(--container-background);
+  padding: 40px;
+  line-height: 4;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+#reach-us-container a{
+  color: black;
+}
+.icon-wording {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+  overflow-wrap: normal;
+}
+#reach-us-image {
+  position: relative;
+  width: auto;
+  max-width: 100%;
+  background-color: var(--container-background);
+} 
+#reach-us-img-container {
+  background-color: var(--container-background);
+  display: flex;
+  justify-content: right;
+}
 @media screen and (max-width: 650px) {
   .contact-info-container, .contact-box {
     grid-template-columns: auto;

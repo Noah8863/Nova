@@ -253,6 +253,9 @@
   background-color: var(--container-background);
   padding: 40px;
   line-height: 4;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 #reach-us-container a{
   color: black;
@@ -262,6 +265,7 @@
   display: inline-block;
   font-size: 18px;
   color: black;
+  overflow-wrap: normal;
 }
 #reach-us-image {
   position: relative;
@@ -269,6 +273,11 @@
   max-width: 100%;
   background-color: var(--container-background);
 } 
+#reach-us-img-container {
+  background-color: var(--container-background);
+  display: flex;
+  justify-content: right;
+}
 
 @media screen and (max-width: 650px) {
   .trespa-inner-container, .contact-info-container, .contact-box {

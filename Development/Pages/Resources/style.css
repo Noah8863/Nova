@@ -118,45 +118,39 @@ body {
   display: grid;
   grid-template-columns: auto auto;
 }
-#contact {
-  border-bottom: 1px solid rgb(0, 0, 0);
-  text-align: center;
-  position: relative;
-  background-color: grey;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  color: white;
-}
-.reach-us-container {
-  background-color: var(--backdrop);
-}
-.reach-us-row {
+
+.contact-info-container {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #d9d9d9;
 }
-#left-side-reach-us {
-  margin-top: 10px;
-  margin-right: 10px;
+#reach-us-container {
+  background-color: var(--container-background);
   padding: 40px;
-  margin: auto;
-  width: 90%;
-  height: 80%;
-  text-align: left;
+  line-height: 4;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+#reach-us-container a{
+  color: black;
 }
 .icon-wording {
   position: relative;
   display: inline-block;
   font-size: 18px;
   color: black;
+  overflow-wrap: normal;
 }
-
-#reach-us-image img {
+#reach-us-image {
+  position: relative;
   width: auto;
   max-width: 100%;
+  background-color: var(--container-background);
+} 
+#reach-us-img-container {
+  background-color: var(--container-background);
   display: flex;
-  margin: auto;
-  margin-top: 10px;
+  justify-content: right;
 }
 
 .resource-outer-container {
@@ -208,6 +202,15 @@ body {
   max-width: 100%;
   display: flex;
   margin: auto;
+}
+#contact {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
 }
 .wrapper {
   display: inline-flex;
