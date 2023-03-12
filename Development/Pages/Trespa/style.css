@@ -101,7 +101,6 @@
 .navbar-input:not(:placeholder-shown) + button {
   display: block;
 }
-
 .navbar-label {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -125,16 +124,20 @@
 }
 #trespa-left-wording {
   position: relative;
-  padding: 80px 10px 0 10px;
+  padding: 100px 10px 0 10px;
   height: 100%;
-  text-align: center;
   border-right: solid 5px;
   border-color: #dffc00;
   margin-right: 20px;
+  font-size: 1.4em;
 }
 #trespa-pic {
   width: auto;
   max-width: 100%;
+}
+.trespa-pic-container {
+  display: flex;
+  justify-content:center;
 }
 #trespa-right-wording {
   position: relative;
@@ -142,6 +145,7 @@
   border-left: solid 5px;
   border-color: #dffc00;
   margin-left: 20px;
+  font-size: 1.4em;
 }
 #application-btn {
   background-color: rgb(5, 88, 5);
