@@ -120,13 +120,17 @@
   display: grid;
   grid-template-columns: 30% auto;
 }
+#contact-picture {
+  background-color: var(--container-background);
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
 #contact-picture img {
   width: auto;
   max-width: 100%;
-  display: flex;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 5px;
 }
 #contact-form {
   margin-top: 10px;
