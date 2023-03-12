@@ -165,7 +165,7 @@
 }
 .toplab-icon-description {
   display: inline;
-  line-height: 5.5em;
+  line-height: 4em;
 }
 #toplab-img-container {
   border-right: solid 5px;
@@ -316,6 +316,11 @@
 @media screen and (max-width: 1200px) {
   #toplab-img-container {
     display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .toplab-icon-description {
+    line-height: 2.5em;
   }
 }
 @media screen and (max-width: 650px) {

@@ -26,9 +26,7 @@
 .navbar-brand {
   width: 140px;
 }
-.mobile-nav {
-  display: none;
-}
+
 .form-navbar {
   position: relative;
   width: 30rem;
@@ -120,7 +118,8 @@
   display: grid;
   grid-template-columns: 30% auto;
 }
-.office, .social-media {
+.office,
+.social-media {
   position: relative;
   margin: auto;
 }
@@ -143,7 +142,8 @@
 }
 #form {
   position: relative;
-  background-color: var(--container-background);
+  background-color: #545454;
+  color:white;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -199,9 +199,9 @@
   line-height: 4;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
-#reach-us-container a{
+#reach-us-container a {
   color: black;
 }
 .icon-wording {
@@ -216,7 +216,7 @@
   width: auto;
   max-width: 100%;
   background-color: var(--container-background);
-} 
+}
 #reach-us-img-container {
   background-color: var(--container-background);
   display: flex;
@@ -331,7 +331,13 @@
     margin-bottom: 10px;
   }
   .contact-info-container {
-    max-height:max-content;
+    max-height: max-content;
+  }
+  
+}
+@media screen and (max-width: 991px) {
+  .navbar-toggler { 
+    background-color: transparent !important;
   }
 }
 @media screen and (max-width: 1000px) {
