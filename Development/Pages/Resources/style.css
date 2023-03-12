@@ -178,6 +178,9 @@ body {
   border-left: solid 5px;
   border-color: #dffc00;
   margin-left: 30px;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
 }
 .icon-wording {
   text-decoration: underline;
@@ -192,16 +195,35 @@ body {
   grid-template-columns: auto auto;
 }
 .info-left-side {
-  padding: 30px;
-  border-right: solid 5px;
-  border-color: #dffc00;
-  margin-right: 30px;
+  position: relative;
+  padding: 10px;
+  font-size: 1.4em;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin-left: 20px;
+}
+.info-left-side > *{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.info-right-side {
+  display: flex;
+  margin-right: 10px;
+  position: relative;
+  justify-content: right;
 }
 .info-right-side img {
+  position: relative;
   width: auto;
   max-width: 100%;
   display: flex;
-  margin: auto;
+  border-left: solid 5px;
+  border-color: #dffc00;
+  padding: 10px;
 }
 #contact {
   border-bottom: 1px solid rgb(0, 0, 0);
@@ -300,7 +322,7 @@ body {
   color: #ffffff;
 }
 @media screen and (max-width: 650px) {
-  .contact-box, .resource-inner-container, .product-info-row, .reach-us-row {
+  .contact-box, .resource-inner-container, .product-info-row, .reach-us-row, .contact-info-container {
     grid-template-columns: auto;
   }
   #contact-form {
@@ -334,6 +356,10 @@ body {
     border-color: #dffc00;
     margin: 10px 0px 10px 0px;
     border-right: none;
+  }
+  .info-right-side img {
+    border-left: 0px;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 1000px) {
