@@ -9,6 +9,7 @@
   --btn-width: 4rem;
   --bez: cubic-bezier(0, 0, 0.43, 1.49);
   --backdrop: #dffc00;
+  --container-background: #d9d9d9;
 }
 
 .logo {
@@ -139,7 +140,7 @@
 }
 .right-side-wording {
   position: relative;
-  background-color: rgb(184, 182, 182);
+  background-color: var(--container-background);
   margin-top: 10px;
   margin-left: 5px;
 }
@@ -163,7 +164,7 @@
 }
 #left-heading {
   position: relative;
-  background-color: rgb(184, 182, 182);
+  background-color: var(--container-background);
   margin-right: 5px;
   height: 100%;
 }
@@ -175,7 +176,7 @@
 }
 .right-bottom-side-wording {
   position: relative;
-  background-color: rgb(184, 182, 182);
+  background-color: var(--container-background);
   margin-left: 5px;
 }
 .right-bottom-side-wording p {
@@ -183,6 +184,12 @@
   padding: 60px;
   font-size: 1.4rem;
   text-align: center;
+}
+#testimonial-container {
+  border-top: solid 5px;
+  border-bottom: solid 5px;
+  border-color: var(--backdrop);
+  background-color: var(--container-background);
 }
 .footer-content {
   margin-top: 30px;

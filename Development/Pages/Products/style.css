@@ -101,7 +101,6 @@
 .navbar-input:not(:placeholder-shown) + button {
   display: block;
 }
-
 .navbar-label {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -110,6 +109,35 @@
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+.product-outer-container {
+  background-color: var(--container-background)
+}
+#top-product-row {
+  border-top: 5px solid;
+  border-color: var(--backdrop)
+}
+.product-inner-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#product-left-wording {
+  position: relative;
+  padding: 100px 10px 0 10px;
+  height: 100%;
+  border-right: solid 5px;
+  border-color: #dffc00;
+  margin-right: 20px;
+  font-size: 1.4em;
+}
+#product-pic {
+  width: auto;
+  max-width: 100%;
+}
+.product-pic-container {
+  display: flex;
+  justify-content:center;
 }
 #contact {
   border-bottom: 1px solid rgb(0, 0, 0);
@@ -120,6 +148,46 @@
   grid-template-columns: auto auto auto;
   color: white;
 }
+.trespa-toplab-container {
+  display:grid;
+  grid-template-columns: 25% auto auto;
+  height: max-content;
+  background-color: var(--container-background);
+}
+#toplab-icons-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+#toplab-icons-container i {
+  color: #0a5d40;
+}
+.toplab-icon-description {
+  display: inline;
+  line-height: 5.5em;
+}
+#toplab-img-container {
+  border-right: solid 5px;
+  border-color: var(--backdrop);
+  padding-right: 10px;
+  display: flex;
+  max-height:1000px;
+}
+#toplab-img-container img{
+  width: auto;
+  min-width: 80%;
+}
+#toplab-description {
+  font-size:1.5em;
+  padding: 30px;
+  height: 100%;
+}
+#mobile-toplab-description-container {
+  display: none;
+  background-color: var(--container-background);
+}
+
 .office, .social-media {
   position: relative;
   margin: auto;
@@ -245,15 +313,17 @@
   display: flex;
   justify-content: right;
 }
+@media screen and (max-width: 1200px) {
+  #toplab-img-container {
+    display: none;
+  }
+}
 @media screen and (max-width: 650px) {
-  .contact-info-container, .contact-box {
+  .contact-info-container, .contact-box, #contact, .product-inner-container {
     grid-template-columns: auto;
   }
   #contact-form {
     margin-left: 0px;
-  }
-  #contact {
-    grid-template-columns: auto;
   }
   .footer-content {
     margin-top: 10px;
@@ -269,5 +339,24 @@
   }
   .contact-info-container {
     max-height:max-content;
+  }
+  .trespa-toplab-container {
+    grid-template-columns: auto;
+  }
+  #product-left-wording {
+    border-right: 0px;
+    margin:0px 0px 10px 0px;
+    padding: 0px;
+    border-bottom: solid 5px;
+    border-color: var(--backdrop);
+  }
+  #toplab-description-container {
+    display: none;
+  }
+  #mobile-toplab-description-container {
+    display: block;
+  }
+  .toplab-icon-description {
+    line-height: 3em;
   }
 }
