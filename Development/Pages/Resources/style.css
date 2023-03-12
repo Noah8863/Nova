@@ -121,7 +121,8 @@ body {
 
 .contact-info-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 60% auto;
+  max-height: 500px;
 }
 #reach-us-container {
   background-color: var(--container-background);
@@ -364,6 +365,9 @@ body {
   .info-right-side img {
     border-left: 0px;
     margin-top: 10px;
+  }
+  .contact-info-container {
+    max-height:max-content;
   }
 }
 @media screen and (max-width: 1000px) {
