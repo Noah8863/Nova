@@ -120,6 +120,10 @@
   display: grid;
   grid-template-columns: 30% auto;
 }
+.office, .social-media {
+  position: relative;
+  margin: auto;
+}
 #contact-picture {
   background-color: var(--container-background);
   margin: auto;
