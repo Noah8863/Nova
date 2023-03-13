@@ -21,7 +21,8 @@
   color: white;
 }
 .navbar {
-  background-color: #545454;
+  /* background-color: #545454; */
+  background-color: #df0000;
 }
 .navbar-brand {
   width: 140px;
