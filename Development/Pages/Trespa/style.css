@@ -289,7 +289,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .trespa-inner-container, .contact-info-container, .contact-box {
+  .trespa-inner-container, .contact-info-container, .contact-box, #contact {
     grid-template-columns: auto;
   }
   #trespa-left-wording {
@@ -313,9 +313,6 @@
   }
   #contact-form {
     margin-left: 0px;
-  }
-  #contact {
-    grid-template-columns: auto;
   }
   .footer-content {
     margin-top: 10px;
