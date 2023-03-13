@@ -313,6 +313,24 @@
     height: auto;
     max-width: 100%;
   }
+  .right-side-wording h1 {
+    padding: 10px 0px 10px 0px;
+  }
+  .right-side-wording p {
+    padding: 10px;
+  }
+  #left-heading {
+    margin-right: 0px;
+  }
+  #left-heading h2 {
+    position: relative;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .right-bottom-side-wording p {
+    padding: 20px;
+  }
 }
 
 @media screen and (min-width: 990px) {

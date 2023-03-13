@@ -297,7 +297,7 @@
     padding: 10px;
     height: 100%;
     width: 100%;
-    text-align: center;
+    text-align: left;
     border-right: 0px;
     border-bottom: solid 5px;
     border-color: #dffc00;
@@ -323,8 +323,8 @@
     right: 20px;
   }
   .wrapper .icon {
-    width:30px;
-    height:30px;
+    width:40px;
+    height:40px;
   }
   .contact-info-container {
     max-height:max-content;
