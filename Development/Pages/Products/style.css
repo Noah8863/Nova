@@ -111,11 +111,11 @@
   overflow: hidden;
 }
 .product-outer-container {
-  background-color: var(--container-background)
+  background-color: var(--container-background);
 }
 #top-product-row {
   border-top: 5px solid;
-  border-color: var(--backdrop)
+  border-color: var(--backdrop);
 }
 .product-inner-container {
   position: relative;
@@ -137,7 +137,7 @@
 }
 .product-pic-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 #contact {
   border-bottom: 1px solid rgb(0, 0, 0);
@@ -149,7 +149,7 @@
   color: white;
 }
 .trespa-toplab-container {
-  display:grid;
+  display: grid;
   grid-template-columns: 25% auto auto;
   height: max-content;
   background-color: var(--container-background);
@@ -172,14 +172,14 @@
   border-color: var(--backdrop);
   padding-right: 10px;
   display: flex;
-  max-height:1000px;
+  max-height: 1000px;
 }
-#toplab-img-container img{
+#toplab-img-container img {
   width: auto;
   min-width: 80%;
 }
 #toplab-description {
-  font-size:1.5em;
+  font-size: 1.5em;
   padding: 30px;
   height: 100%;
 }
@@ -187,8 +187,56 @@
   display: none;
   background-color: var(--container-background);
 }
+.brochure-container {
+  display: grid;
+  grid-template-columns: 50% auto;
+  background-color: var(--container-background);
+  padding: 20px 0px 20px 0px;
+}
+#brochure-description {
+  position: relative;
+  padding: 100px 40px 0px 40px;
+  border-right: solid 5px;
+  border-color: var(--backdrop);
+  margin-right: 20px;
+  font-size: 1.5em;
+}
+#brochure-pic-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#brochure-pic-container img {
+  width: auto;
+  max-width: 100%;
+}
+#brochure-description img {
+  width: 80%;
+  max-width: 100%;
+}
+.brochure-bottom-container {
+  display: grid;
+  grid-template-columns: 50% auto;
+  background-color: var(--container-background);
+  padding: 20px 0px 20px 0px;
+}
+#brochure-bottom-description {
+  position: relative;
+  padding: 100px 40px 0px 40px;
+  border-right: solid 5px;
+  border-color: var(--backdrop);
+  margin-right: 20px;
+  font-size: 1.5em;
+}
+#brochure-bottom-picture img{
+  width: 80%;
+  max-width: 100%;
+  padding: 20px;
+}
 
-.office, .social-media {
+.office,
+.social-media {
   position: relative;
   margin: auto;
 }
@@ -290,9 +338,9 @@
   line-height: 4;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
-#reach-us-container a{
+#reach-us-container a {
   color: black;
 }
 .icon-wording {
@@ -307,7 +355,7 @@
   width: auto;
   max-width: 100%;
   background-color: var(--container-background);
-} 
+}
 #reach-us-img-container {
   background-color: var(--container-background);
   display: flex;
@@ -324,7 +372,10 @@
   }
 }
 @media screen and (max-width: 650px) {
-  .contact-info-container, .contact-box, #contact, .product-inner-container {
+  .contact-info-container,
+  .contact-box,
+  #contact,
+  .product-inner-container, .brochure-container, .brochure-bottom-container {
     grid-template-columns: auto;
   }
   #contact-form {
@@ -339,18 +390,18 @@
     right: 20px;
   }
   .wrapper .icon {
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
   }
   .contact-info-container {
-    max-height:max-content;
+    max-height: max-content;
   }
   .trespa-toplab-container {
     grid-template-columns: auto;
   }
   #product-left-wording {
     border-right: 0px;
-    margin:0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     padding: 0px;
     border-bottom: solid 5px;
     border-color: var(--backdrop);
@@ -363,5 +414,18 @@
   }
   .toplab-icon-description {
     line-height: 3em;
+  }
+  #brochure-description, #brochure-bottom-description {
+    position: relative;
+    padding: 30px;
+    border-right: 0px;
+    border-top: solid 5px;
+    border-color: var(--backdrop);
+    margin-right: 0px;
+    font-size: 1.5em;
+  }
+  #brochure-description img, #brochure-bottom-picture img {
+    width: 100%;
+    max-width: 100%;
   }
 }
