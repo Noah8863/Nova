@@ -353,6 +353,10 @@
     left: 15%;
     color: white;
   }
+  :root {
+    --height: 2.5rem;
+    --btn-width: 3rem;
+  }
   
 }
 @media screen and (max-width: 991px) {
