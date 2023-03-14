@@ -177,7 +177,7 @@
   max-height: 1000px;
 }
 #toplab-img-container img {
-  width: auto;
+  width: 90%;
   min-width: 80%;
 }
 #toplab-description {
