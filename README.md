@@ -1,8 +1,5 @@
 # Nova International
 
-[![Project Version][version-image]][version-url]
-[![Frontend][Frontend-image]][Frontend-url]
-
 This is a front-end only eCommerce website created for a local business called "Nova International". This company specializes in whole selling medical/sanitary flooring and counter top. The project was worked on over a course of a few weeks with the help of my designer, Tess Welch. We were in contact with the client through Google Docs, Trello, and Zoom and used addintional tools like Google Drive, Canva and VS-Code. 
 
 ## Live deployed URL *Testing domain name in use*
