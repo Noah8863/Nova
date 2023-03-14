@@ -23,8 +23,8 @@ This is a front-end only eCommerce website created for a local business called "
 ![Screenshot (72)](https://user-images.githubusercontent.com/60634270/224875676-0ce08d0b-d1a3-4b00-a007-0e18e55199ad.png)
 
 ## Mobile Responsive
+![Screenshot (73)](https://user-images.githubusercontent.com/60634270/224875806-b2c503fd-28dc-47b9-b391-69ac7af708c7.png)
 ![Screenshot (75)](https://user-images.githubusercontent.com/60634270/224875489-1ab8ca94-9da0-42b7-9114-a7f3b3a1f30d.png)
-![Screenshot (75)](https://user-images.githubusercontent.com/60634270/224875715-78f07b6a-8f9c-46bd-8ac3-5d5dc9b997ba.png)
 
 ## Built With
 
