@@ -366,6 +366,7 @@
   background-color: var(--container-background);
   display: flex;
   justify-content: right;
+  padding: 10px;
 }
 @media screen and (max-width: 1200px) {
   #toplab-img-container {
