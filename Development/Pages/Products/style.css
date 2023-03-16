@@ -348,6 +348,8 @@
   display: grid;
   grid-template-columns: 60% auto;
   max-height: 500px;
+  border-top: solid 5px;
+  border-color: var(--backdrop);
 }
 #reach-us-container {
   background-color: var(--container-background);

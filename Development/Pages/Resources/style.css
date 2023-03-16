@@ -123,6 +123,8 @@ body {
   display: grid;
   grid-template-columns: 60% auto;
   max-height: 500px;
+  border-top: solid 5px;
+  border-color: var(--backdrop);
 }
 #reach-us-container {
   background-color: var(--container-background);
@@ -158,6 +160,8 @@ body {
 .resource-outer-container {
   padding: 40px;
   background-color: #d9d9d9;
+  border-top: solid 5px;
+  border-color: var(--backdrop);
 }
 .resource-outer-container h1{
   padding: 10px;
