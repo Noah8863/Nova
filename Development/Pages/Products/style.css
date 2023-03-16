@@ -231,24 +231,25 @@
 }
 .brochure-bottom-container {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-rows: auto auto;
   background-color: var(--container-background);
   padding: 20px 0px 20px 0px;
 }
 #brochure-bottom-description {
   position: relative;
-  padding: 100px 40px 0px 40px;
-  border-right: solid 5px;
+  padding: 100px 20% 0px 20%;
+  border-top: solid 5px;
   border-color: var(--backdrop);
-  margin-right: 20px;
   font-size: 1.5em;
   display: flex;
   align-items: center;
 }
 #brochure-bottom-picture img{
-  width: 80%;
+  width: auto;
   max-width: 100%;
   padding: 20px;
+  margin: auto;
+  display: flex;
 }
 
 .office,
@@ -392,7 +393,7 @@
   .contact-info-container,
   .contact-box,
   #contact,
-  .product-inner-container, .brochure-container, .brochure-bottom-container {
+  .product-inner-container, .brochure-container {
     grid-template-columns: auto;
   }
   #contact-form {
