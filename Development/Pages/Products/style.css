@@ -145,7 +145,7 @@
   position: relative;
   background-color: grey;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   color: white;
 }
 .trespa-toplab-container {
@@ -344,6 +344,9 @@
   background: #e1b301;
   color: #ffffff;
 }
+.footer-logo img {
+  width: 200px;
+}
 .contact-info-container {
   display: grid;
   grid-template-columns: 60% auto;
@@ -447,5 +450,8 @@
   #brochure-description img, #brochure-bottom-picture img {
     width: 100%;
     max-width: 100%;
+  }
+  .footer-logo {
+    width: 160px;
   }
 }

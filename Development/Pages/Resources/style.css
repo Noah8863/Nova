@@ -240,7 +240,7 @@ body {
   position: relative;
   background-color: grey;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   color: white;
 }
 .office, .social-media {
@@ -334,6 +334,9 @@ body {
   background: #e1b301;
   color: #ffffff;
 }
+.footer-logo img {
+  width: 200px;
+}
 @media screen and (max-width: 700px) {
   .contact-box, .resource-inner-container, .product-info-row, .reach-us-row, .contact-info-container {
     grid-template-columns: auto;
@@ -376,6 +379,9 @@ body {
   }
   .contact-info-container {
     max-height:max-content;
+  }
+  .footer-logo img {
+    width: 160px;
   }
 }
 @media screen and (max-width: 1000px) {

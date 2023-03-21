@@ -186,8 +186,11 @@
   position: relative;
   background-color: grey;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   color: white;
+}
+.footer-logo img{
+  width: 200px;
 }
 .contact-info-container {
   display: grid;
@@ -357,6 +360,9 @@
   :root {
     --height: 2.5rem;
     --btn-width: 3rem;
+  }
+  .footer-logo img{
+    width: 160px;
   }
   
 }
