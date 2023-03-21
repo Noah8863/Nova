@@ -159,7 +159,7 @@
   position: relative;
   background-color: grey;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   color: white;
 }
 .office, .social-media {
@@ -253,6 +253,9 @@
   background: #e1b301;
   color: #ffffff;
 }
+.footer-logo img{
+  width: 200px;
+}
 .contact-info-container {
   display: grid;
   grid-template-columns: 60% auto;
@@ -286,6 +289,7 @@
   background-color: var(--container-background);
   display: flex;
   justify-content: right;
+  padding: 10px;
 }
 
 @media screen and (max-width: 650px) {
@@ -328,5 +332,8 @@
   }
   .contact-info-container {
     max-height:max-content;
+  }
+  .footer-logo img{
+    width: 160px;
   }
 }

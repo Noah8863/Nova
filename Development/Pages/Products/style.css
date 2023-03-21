@@ -145,7 +145,7 @@
   position: relative;
   background-color: grey;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   color: white;
 }
 .trespa-toplab-container {
@@ -177,8 +177,8 @@
   max-height: 1000px;
 }
 #toplab-img-container img {
-  width: 90%;
-  min-width: 80%;
+  width: auto;
+  max-width: 100%;
 }
 #toplab-description {
   font-size: 1.5em;
@@ -186,6 +186,11 @@
   height: 100%;
   display: flex;
   align-items: center;
+}
+#toplab-description-container h1{
+  position: relative;
+  top: 15%;
+  margin-bottom:40px;
 }
 #mobile-toplab-description-container {
   display: none;
@@ -205,6 +210,11 @@
   margin-right: 20px;
   font-size: 1.5em;
 }
+#brochure-description img{
+  position: relative;
+  display: flex;
+  margin: auto;
+}
 #brochure-pic-container {
   position: relative;
   display: flex;
@@ -221,24 +231,25 @@
 }
 .brochure-bottom-container {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-rows: auto auto;
   background-color: var(--container-background);
   padding: 20px 0px 20px 0px;
 }
 #brochure-bottom-description {
   position: relative;
-  padding: 100px 40px 0px 40px;
-  border-right: solid 5px;
+  padding: 100px 20% 0px 20%;
+  border-top: solid 5px;
   border-color: var(--backdrop);
-  margin-right: 20px;
   font-size: 1.5em;
   display: flex;
   align-items: center;
 }
 #brochure-bottom-picture img{
-  width: 80%;
+  width: auto;
   max-width: 100%;
   padding: 20px;
+  margin: auto;
+  display: flex;
 }
 
 .office,
@@ -333,10 +344,15 @@
   background: #e1b301;
   color: #ffffff;
 }
+.footer-logo img {
+  width: 200px;
+}
 .contact-info-container {
   display: grid;
   grid-template-columns: 60% auto;
   max-height: 500px;
+  border-top: solid 5px;
+  border-color: var(--backdrop);
 }
 #reach-us-container {
   background-color: var(--container-background);
@@ -366,6 +382,7 @@
   background-color: var(--container-background);
   display: flex;
   justify-content: right;
+  padding: 10px;
 }
 @media screen and (max-width: 1200px) {
   #toplab-img-container {
@@ -381,7 +398,7 @@
   .contact-info-container,
   .contact-box,
   #contact,
-  .product-inner-container, .brochure-container, .brochure-bottom-container {
+  .product-inner-container, .brochure-container {
     grid-template-columns: auto;
   }
   #contact-form {
@@ -433,5 +450,8 @@
   #brochure-description img, #brochure-bottom-picture img {
     width: 100%;
     max-width: 100%;
+  }
+  .footer-logo {
+    width: 160px;
   }
 }

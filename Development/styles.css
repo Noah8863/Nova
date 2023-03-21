@@ -14,10 +14,9 @@
 
 .logo {
   position: relative;
-  width: 100%;
+  width: 300px;
   text-align: center;
   align-self: center;
-  
 }
 .navbar a {
   color: white;
@@ -26,7 +25,7 @@
   background-color: #545454;
 }
 .navbar-brand {
-    width: 140px;
+    width: 180px;
 }
 .mobile-nav {
   display: none;
@@ -125,7 +124,7 @@
 }
 #landingPageImg {
   position: relative;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-right: 5px;
   min-width:100%;
   width: auto;
@@ -141,8 +140,7 @@
 .right-side-wording {
   position: relative;
   background-color: var(--container-background);
-  margin-top: 10px;
-  margin-left: 5px;
+  margin-top: 5px;
 }
 .right-side-wording h1 {
   position: relative;
@@ -177,7 +175,6 @@
 .right-bottom-side-wording {
   position: relative;
   background-color: var(--container-background);
-  margin-left: 5px;
 }
 .right-bottom-side-wording p {
   position: relative;

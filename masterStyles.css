@@ -24,7 +24,7 @@
   background-color: #545454;
 }
 .navbar-brand {
-  width: 140px;
+  width: 180px;
 }
 .mobile-nav {
   display: none;
@@ -117,7 +117,7 @@
   position: relative;
   background-color: grey;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   color: white;
 }
 .contact-info-container {
@@ -231,6 +231,9 @@
   background: #e1b301;
   color: #ffffff;
 }
+.footer-logo img{
+  width: 200px;
+}
 @media screen and (max-width: 650px) {
   .contact-info-container,
   .contact-box {
@@ -253,5 +256,8 @@
   .wrapper .icon {
     width: 30px;
     height: 30px;
+  }
+  .footer-logo img{
+    width: 160px;
   }
 }
